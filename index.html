@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Algoritmo criptograficos</title>
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Boxicons CDN Link -->
+    <link
+      href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+
+    <!-- Selector -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css"
+      rel="stylesheet"
+    />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!--Importar CSS y script del menú -->
+    <link rel="stylesheet" href="css/menuAdministrador.css" />
+    <link rel="stylesheet" href="css/index.scss">
+  </head>
+  <body>
+    <div class="sidebar">
+      <div class="logo-details">
+        <i class="fas fa-tire icon"></i>
+        <!-- Espacio entre mensaje Bienvenido-->
+        <div class="logo_name">Bienvenido</div>
+        <i class="bx bx-menu" id="btn"></i>
+      </div>
+
+      <ul class="nav-list">
+        <li>
+          <a href="index.html">
+            <i>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                fill="currentColor"
+                class="bi bi-motherboard"
+                viewBox="0 0 16 16"
+                style="margin: 10px"
+              >
+                <path
+                  d="M11.5 2a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5Zm2 0a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5Zm-10 8a.5.5 0 0 0 0 1h6a.5.5 0 0 0 0-1h-6Zm0 2a.5.5 0 0 0 0 1h6a.5.5 0 0 0 0-1h-6ZM5 3a1 1 0 0 0-1 1h-.5a.5.5 0 0 0 0 1H4v1h-.5a.5.5 0 0 0 0 1H4a1 1 0 0 0 1 1v.5a.5.5 0 0 0 1 0V8h1v.5a.5.5 0 0 0 1 0V8a1 1 0 0 0 1-1h.5a.5.5 0 0 0 0-1H9V5h.5a.5.5 0 0 0 0-1H9a1 1 0 0 0-1-1v-.5a.5.5 0 0 0-1 0V3H6v-.5a.5.5 0 0 0-1 0V3Zm0 1h3v3H5V4Zm6.5 7a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h2a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-2Z"
+                />
+                <path
+                  d="M1 2a2 2 0 0 1 2-2h11a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-2H.5a.5.5 0 0 1-.5-.5v-1A.5.5 0 0 1 .5 9H1V8H.5a.5.5 0 0 1-.5-.5v-1A.5.5 0 0 1 .5 6H1V5H.5a.5.5 0 0 1-.5-.5v-2A.5.5 0 0 1 .5 2H1Zm1 11a1 1 0 0 0 1 1h11a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v11Z"
+                />
+              </svg>
+            </i>
+
+            <span class="links_name">Criptografia</span>
+          </a>
+          <span class="tooltip">Criptografia</span>
+        </li>
+        <li>
+          <a href="html/tipoAlgoritmo.html">
+            <i class="icon fas fa-user"></i>
+            <span class="links_name">Tipos de algoritmos</span>
+          </a>
+          <span class="tooltip">Tipos de algoritmos</span>
+        </li>
+        <li>
+          <a href="">
+            <i class="fas fa-user-cog"></i>
+            <span class="links_name">Prueba algoritmos</span>
+          </a>
+          <span class="tooltip">Prueba algoritmos</span>
+        </li>
+        <li>
+          <a href="">
+            <i class="fas fa-shopping-cart"></i>
+            <span class="links_name">Compara algoritmos</span>
+          </a>
+          <span class="tooltip">Compara algoritmos</span>
+        </li>
+
+        <li>
+          <a href="">
+            <i>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                fill="currentColor"
+                class="bi bi-question-circle"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"
+                />
+                <path
+                  d="M5.255 5.786a.237.237 0 0 0 .241.247h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286zm1.557 5.763c0 .533.425.927 1.01.927.609 0 1.028-.394 1.028-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94z"
+                />
+              </svg>
+            </i>
+            <span class="links_name">Acerca de</span>
+          </a>
+          <span class="tooltip">Acerca de</span>
+        </li>
+      </ul>
+    </div>
+    
+    <section class="home-section">
+      <div
+        class="card"
+        style="
+          box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px,
+            rgba(0, 0, 0, 0.23) 4px 0px 6px 6px;
+          margin: 20px; margin-bottom: 0;
+        "
+      >
+        <div class="row">
+          <div class="col-3">
+              <img src="./img/Hello-rafiki.png" alt="" style="height: 350px; width: 350px; margin: 0; padding: 0;">
+          </div>
+          <div class="col-9" style="padding: 50px;">
+            
+            <h5 class="card-title" style="font-family: 'Tai Heritage Pro', serif; font-size: 48px;">¡Comencemos!</h5>
+            <div class="card-body" style="font-family: 'Tai Heritage Pro', serif; font-size: 18px;">
+                Estas por comenzar una aventura en el mundo de la seguridad informatica, este sistema esta enfocado principalmente sobre
+                los algoritmos criptograficos, a continuación podras encontrar conceptos básicos,
+                tipos de algoritmos, podras comparar y evaluar algortimos, todo esto con el fin de que te diviertas y aprendas de este tema tan 
+                importante para tu carrera. ¡Muchas suerte! &#128512
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div
+        class="card"
+        style="
+          box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px,
+            rgba(0, 0, 0, 0.23) 4px 0px 6px 6px;
+          margin: 20px; margin-bottom: 0; margin-top: 50px; margin-bottom: 10px;
+        ">
+        <div class="row">
+          <div class="col" style="padding: 50px;">
+            <h5 class="card-title" style="font-family: 'Tai Heritage Pro', serif; font-size: 48px;">Primeros pasos...</h5>
+            <div class="card-body" style="font-family: 'Tai Heritage Pro', serif; font-size: 18px;">
+              Antes de entrar completamente a mirar los distintos algoritmos criptograficos que existen en el mundo del desarrollo de software,
+              se debe estudiar previamente tener conocimiento sobre las bases teoricas de la seguridad informatica, sobre su importancia y entre otros 
+              conceptos fundamentales.
+              
+              A continuación vamos a ver un poco de ello.
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <div style="display: flex; align-items: center; align-content: center;">
+        <img src="https://jesusfernandeztoledo.com/wp-content/uploads/2020/11/word-image.png" alt="" style="margin-left: auto; margin-right: auto;">
+      </div>
+      
+      <hr>
+      <div class="row">
+        <div class="col-6">
+          <div
+        class="card"
+        style="
+          box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px,
+            rgba(0, 0, 0, 0.23) 4px 0px 6px 6px;
+          margin: 20px; margin-bottom: 0; margin-top: 10px; margin-bottom: 10px;
+        ">
+        <div class="row">
+          <div class="col" style="padding: 50px;">
+            <h5 class="card-title" style="font-family: 'Tai Heritage Pro', serif; font-size: 48px;">Seguridad informatica</h5>
+            <div class="card-body" style="font-family: 'Tai Heritage Pro', serif; font-size: 18px;">
+              <b>Historia</b>
+              <br>
+              De los párrafos anteriores, se puede deducir fácilmente que la «Seguridad de la Información» no necesariamente nació con la moderna y actual «Era Informática», ya que tiene que ver con la información de forma genérica, la cual siempre ha estado asociada al término de «Humanidad, Sociedad y Civilización», mientras que por el contrario, la «Seguridad Informática» sí.
+              <br>
+              Por lo que, podemos enumerar ejemplos puntuales de proteger «Información» a lo largo de la historia, lo cual, muchas veces se asocia con el legendario arte o ciencia de la «Criptografía». Ejemplos tales como:
+              <br>
+              <br>
+              <b>Hitos después de Cristo (dC)</b>
+              <br>
+              <ul>
+                <li>
+                  855: Primer texto conocido de criptografía, en Arabia (Medio Oriente).
+                </li>
+              
+                <li>
+                  1412: Enciclopedia (14 tomos) donde se explica la criptografía, y las técnicas de sustitución y transposición.
+                </li>
+
+                <li>
+                  1500: Inicio de la criptografía en la vida diplomática, en Italia.
+                </li>
+
+                <li>
+                  1518: Primer libro de criptografía llamado “Polygraphia libri sex”, escrito por Trithemius en alemán.
+                </li>
+                <li>
+                  1833: Libro “La Cryptographie militaire”, de Auguste Kerckhoff, que contiene el principio de Kerckhoff.
+                </li>
+                <li>
+                  1917: Desarrollo de la cinta aleatoria de un solo uso, único sistema criptográfico seguro, de la época.
+                </li>
+                <li>
+                  1923: Uso de la máquina de rotores “Enigma”, diseñada por el alemán Arthur Scherbius.
+                </li>
+                <li>
+                  1973-76: Difusión y uso de Algoritmos de cifrado de llave pública o llaves criptográficas.
+                </li>
+              </ul>
+              <br>
+              <b>¿Que es?</b>
+              <br>
+              La seguridad informática —también llamada ciberseguridad—se refiere a la protección de la información y, especialmente, al procesamiento que se hace de la misma, con el objetivo de evitar la manipulación de datos y procesos por personas no autorizadas. Su principal  finalidad es que tanto personas como equipos tecnológicos y datos estén protegidos contra daños y amenazas hechas por terceros. Es por esto que esta disciplina del área de la informática encargada de la protección de la privacidad de datos dentro de los sistemas informáticos se ha convertido en una parte indispensable para los negocios y la operación de las empresas. Está claro que no existen sistemas 100% infalibles, por lo que las organizaciones que se comunican a través del mundo digital deben buscar los mecanismos oportunos para garantizar la seguridad de sus datos, a través de alguno de los tipos de seguridad informática que existen y que deberían implementar en sus organismos.
+              <br>
+              <iframe width="500" height="315" src="https://www.youtube.com/embed/spMYZHepjko" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+        </div>
+        <div class="col-6">
+          <div
+        class="card"
+        style="
+          box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px,
+            rgba(0, 0, 0, 0.23) 4px 0px 6px 6px;
+          margin: 20px; margin-bottom: 0; margin-top: 10px; margin-bottom: 10px;
+        ">
+        <div class="row">
+          <div class="col" style="padding: 50px;">
+            <h5 class="card-title" style="font-family: 'Tai Heritage Pro', serif; font-size: 48px;">Criptografia</h5>
+            <div class="card-body" style="font-family: 'Tai Heritage Pro', serif; font-size: 18px;">
+              <b>Historia</b>
+              <br>
+              El uso más antiguo conocido de la criptografía se halla en jeroglíficos no estándares tallados en monumentos del Antiguo Egipto (hace más de 4500 años). Sin embargo, no se piensa que sean intentos serios de comunicación secreta, sino intentos de conseguir misterio, intriga o incluso diversión para el espectador letrado. Son ejemplos de otros usos de la criptografía, o de algo que se le parece. Más tarde, eruditos hebreos hicieron uso de sencillos cifrados por sustitución monoalfabéticos (como el cifrado Atbash), quizás desde el 600 al 500 a. C. La criptografía tiene una larga tradición en las escrituras religiosas que podrían ofender a la cultura dominante o a las autoridades políticas. Quizás el caso más famoso es el 'Número de la bestia', del libro del Apocalipsis en el Nuevo Testamento cristiano. El '666' puede ser una forma criptográfica (es decir, cifrada) de ocultar una referencia peligrosa; muchos expertos creen que es una referencia oculta al Imperio romano, o más probablemente al propio emperador Nerón (y así a las políticas persecutorias romanas), que sería entendida por los iniciados (los que 'tenían la clave del entendimiento'), y sin embargo sería segura o al menos negable (y por tanto 'menos' peligrosa) si atraía la atención de las autoridades. Al menos para las escrituras ortodoxas cristianas, casi toda esta necesidad de ocultación desapareció con la conversión y adopción del cristianismo como religión oficial del Imperio por parte del emperador Constantino.
+              
+              <br><br>
+              La era de la criptografía moderna comienza realmente con Claude Shannon, que podría decirse que es el padre de la criptografía matemática. En 1949 publicó el artículo Communication Theory of Secrecy Systems en la Bell System Technical Journal, y poco después el libro Mathematical Theory of Communication, con Warren Weaver. Estos trabajos, junto con los otros que publicó sobre la teoría de la información y la comunicación, establecieron una sólida base teórica para la criptografía y el criptoanálisis moderno hasta ahora.
+              <br><br>
+              <b>¿Que es?</b>
+              <br>
+              La criptografía es una necesidad derivada de realizar comunicaciones por escrito (en su origen) creada para preservar la privacidad de la información que se transmite, garantizando que una persona que no esté autorizada no pueda leer el contenido del mensaje.
+              <br>
+              En la historia hemos tenido multitud de ejemplos de formas de encriptar mensajes como los métodos espartanos de hace 2.500 años, el cifrado de Polybios (de los griegos) o el cifrador del César (de los romanos), y sin olvidarnos de la máquina de encriptación más famosa de la historia: la máquina Enigma.
+              <br>
+              <br>
+              <iframe width="500" height="315" src="https://www.youtube.com/embed/bPl6Ra7sWpQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+        </div>
+      </div>
+      
+    </section>
+  </body>
+  <script src="js/menuAdministrador.js"></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"
+  ></script>
+  <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+</html>

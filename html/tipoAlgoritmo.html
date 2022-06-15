@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Algoritmo criptograficos</title>
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Boxicons CDN Link -->
+    <link
+      href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+
+    <!-- Selector -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!--Importar CSS y script del menú -->
+    <link rel="stylesheet" href="../css/menuAdministrador.css" />
+    <link rel="stylesheet" href="../css/index.scss" />
+  </head>
+  <body>
+    <div class="sidebar">
+      <div class="logo-details">
+        <i class="fas fa-tire icon"></i>
+        <!-- Espacio entre mensaje Bienvenido-->
+        <div class="logo_name">Bienvenido</div>
+        <i class="bx bx-menu" id="btn"></i>
+      </div>
+
+      <ul class="nav-list">
+        <li>
+          <a href="../index.html">
+            <i>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                fill="currentColor"
+                class="bi bi-motherboard"
+                viewBox="0 0 16 16"
+                style="margin: 10px"
+              >
+                <path
+                  d="M11.5 2a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5Zm2 0a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5Zm-10 8a.5.5 0 0 0 0 1h6a.5.5 0 0 0 0-1h-6Zm0 2a.5.5 0 0 0 0 1h6a.5.5 0 0 0 0-1h-6ZM5 3a1 1 0 0 0-1 1h-.5a.5.5 0 0 0 0 1H4v1h-.5a.5.5 0 0 0 0 1H4a1 1 0 0 0 1 1v.5a.5.5 0 0 0 1 0V8h1v.5a.5.5 0 0 0 1 0V8a1 1 0 0 0 1-1h.5a.5.5 0 0 0 0-1H9V5h.5a.5.5 0 0 0 0-1H9a1 1 0 0 0-1-1v-.5a.5.5 0 0 0-1 0V3H6v-.5a.5.5 0 0 0-1 0V3Zm0 1h3v3H5V4Zm6.5 7a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h2a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-2Z"
+                />
+                <path
+                  d="M1 2a2 2 0 0 1 2-2h11a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-2H.5a.5.5 0 0 1-.5-.5v-1A.5.5 0 0 1 .5 9H1V8H.5a.5.5 0 0 1-.5-.5v-1A.5.5 0 0 1 .5 6H1V5H.5a.5.5 0 0 1-.5-.5v-2A.5.5 0 0 1 .5 2H1Zm1 11a1 1 0 0 0 1 1h11a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v11Z"
+                />
+              </svg>
+            </i>
+
+            <span class="links_name">Criptografia</span>
+          </a>
+          <span class="tooltip">Criptografia</span>
+        </li>
+        <li>
+          <a href="">
+            <i class="icon fas fa-user"></i>
+            <span class="links_name">Tipos de algoritmos</span>
+          </a>
+          <span class="tooltip">Tipos de algoritmos</span>
+        </li>
+        <li>
+          <a href="">
+            <i class="fas fa-user-cog"></i>
+            <span class="links_name">Prueba algoritmos</span>
+          </a>
+          <span class="tooltip">Prueba algoritmos</span>
+        </li>
+        <li>
+          <a href="">
+            <i class="fas fa-shopping-cart"></i>
+            <span class="links_name">Compara algoritmos</span>
+          </a>
+          <span class="tooltip">Compara algoritmos</span>
+        </li>
+
+        <li>
+          <a href="">
+            <i>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                fill="currentColor"
+                class="bi bi-question-circle"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"
+                />
+                <path
+                  d="M5.255 5.786a.237.237 0 0 0 .241.247h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286zm1.557 5.763c0 .533.425.927 1.01.927.609 0 1.028-.394 1.028-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94z"
+                />
+              </svg>
+            </i>
+            <span class="links_name">Acerca de</span>
+          </a>
+          <span class="tooltip">Acerca de</span>
+        </li>
+      </ul>
+    </div>
+
+    <section class="home-section">
+      <div
+        class="card"
+        style="
+          box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px,
+            rgba(0, 0, 0, 0.23) 4px 0px 6px 6px;
+          margin: 50px;
+          margin-bottom: 0;
+        "
+      >
+        <div class="row">
+          <div class="col-12" style="padding: 20px; margin-bottom: 15px">
+            <h5
+              class="card-title"
+              style="font-family: 'Tai Heritage Pro', serif; font-size: 48px"
+            >
+              Tipos de algoritmos
+            </h5>
+          </div>
+          <br />
+        </div>
+      </div>
+      
+      <div
+        class="card"
+        style="
+          box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px,
+            rgba(0, 0, 0, 0.23) 4px 0px 6px 6px;
+          margin: 50px;
+        "
+      >
+        <div class="row">
+          <div class="col-12" style="padding: 20px">
+            <h5
+              class="card-title"
+              style="font-family: 'Tai Heritage Pro', serif; font-size: 48px"
+            >
+              Algoritmo Simetrico
+            </h5>
+            <div
+              class="card-body"
+              style="font-family: 'Tai Heritage Pro', serif; font-size: 18px"
+            >
+              <div class="row">
+                <div class="col-12">
+                  La criptografía simétrica es la técnica criptográfica más
+                  antigua que existe, pero sigue ofreciendo un alto nivel de
+                  seguridad. Se basa en la utilización de una única clave
+                  secreta que se encargará de cifrar y descifrar la información,
+                  ya sea información en tránsito con protocolos como TLS, o
+                  información en un dispositivo de almacenamiento extraíble. La
+                  criptografía simétrica fue el primer método empleado para el
+                  cifrado de la información, se basa en que se utilizará la
+                  misma contraseña tanto para el cifrado como el descifrado, por
+                  tanto, es fundamental que todos los usuarios que quieran
+                  cifrar o descifrar el mensaje, tengan esta clave secreta, de
+                  lo contrario, no podrán hacerlo. Gracias a la criptografía
+                  simétrica, podremos realizar comunicaciones o almacenar
+                  archivos de forma segura.
+                  <div
+                    style="
+                      display: flex;
+                      align-items: center;
+                      align-content: center;
+                    "
+                  >
+                    <img
+                      src="https://iordic.github.io/assets/cifrado/esq_simetrico.png"
+                      alt=""
+                      style="
+                        margin-left: auto;
+                        margin-right: auto;
+                        margin-top: 30px;
+                        margin-bottom: 30px;
+                      "
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div
+                  class="col-3"
+                  style="margin-top: 20px; align-items: center"
+                >
+                <select class="form-select" id="selectAlgoritmo" aria-label="Default select example">
+                    <option selected>Selecciona un algoritmo</option>
+                    <option value="DES">DES</option>
+                    <option value="3DES">3DES</option>
+                    <option value="RC5">RC5</option>
+                    <option value="AES">AES</option>
+                  </select>
+                </div>
+                <div class="col-9" id="template">
+                </div>
+              </div>
+            </div>
+          </div>
+          <br />
+        </div>
+<hr>
+        <div class="row">
+            <div class="col-12" style="padding: 20px">
+              <h5
+                class="card-title"
+                style="font-family: 'Tai Heritage Pro', serif; font-size: 48px"
+              >
+                Algoritmo Asimetrico
+              </h5>
+              <div
+                class="card-body"
+                style="font-family: 'Tai Heritage Pro', serif; font-size: 18px"
+              >
+                <div class="row">
+                  <div class="col-12">
+                    La criptografía asimétrica es uno de los tipos de criptografía informática y una de las técnicas de criptografía más potentes diseñadas en base al uso de una fórmula matemática muy compleja para crear un par de claves: la clave privada y la clave pública. A través de estas claves se establece un canal de comunicación seguro entre las partes, en el que tanto el emisor como el receptor deben usar criptografía asimétrica con un mismo algoritmo definido, que les permitirá crear un juego de claves único e irrepetible para cada uno.
+                    <br>
+                    En ese proceso de comunicación, el emisor y el receptor comparten entre ellos sus claves públicas; estas claves cifrarán posteriormente los mensajes que intercambien entre ellos. Y las claves privadas descifrarán esos mensajes para poder ver su contenido. Este proceso hace imposible que un tercero puede interferir en la comunicación y ver el contenido los mensajes.
+                    <br>
+                    El funcionamiento del cifrado asimétrico sigue una serie de pasos que garantizan que el sistema es completamente seguro y que mantiene el secreto de las comunicaciones que se intercambian a través de él.
+                    <br>
+
+                    <div
+                      style="
+                        display: flex;
+                        align-items: center;
+                        align-content: center;
+                      "
+                    >
+                      <img
+                        src="https://protecciondatos-lopd.com/empresas/wp-content/uploads/2020/05/encriptacion-asimetrica.jpg"
+                        alt=""
+                        style="
+                          margin-left: auto;
+                          margin-right: auto;
+                          margin-top: 30px;
+                          margin-bottom: 30px;
+                        "
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div
+                    class="col-3"
+                    style="margin-top: 20px; align-items: center"
+                  >
+                  <select class="form-select" id="selectAlgoritmoA" aria-label="Default select example">
+                      <option selected>Selecciona un algoritmo</option>
+                      <option value="RSA">RSA</option>
+                      <option value="ECDSA">ECDSA</option>
+                      <option value="DSA">DSA</option>
+                      <option value="DIFFIE-HELLMAN">Diffie-Hellman</option>
+                    </select>
+                  </div>
+                  <div class="col-9" id="templateA">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <br />
+          </div>
+
+
+      </div>
+    </section>
+    <template id="algoritmosRSA">
+        <b>Concepto</b>
+        <br />
+        Data Encryption Standard (DES) es un algoritmo de cifrado,
+        es decir, un método para cifrar información, escogido como
+        un estándar FIPS en los Estados Unidos en 1976, y cuyo uso
+        se ha propagado ampliamente por todo el mundo. El algoritmo
+        fue controvertido al principio, con algunos elementos de
+        diseño clasificados, una longitud de clave relativamente
+        corta, y las continuas sospechas sobre la existencia de
+        alguna puerta trasera para la National Security Agency
+        (NSA). Posteriormente DES fue sometido a un intenso análisis
+        académico y motivó el concepto moderno del cifrado por
+        bloques y su criptoanálisis.
+        <br /><br />
+        Algoritmo de cifra basado en un secreto compartido (clave).
+        Cifra el texto en bloques de 64 bits. Utiliza claves de 56
+        bits.
+      </template>
+    <template id="algoritmosDES">
+        <b>Concepto</b>
+        <br />
+        RSA basa su seguridad es ser una función computacionalmente segura, ya que si bien realizar la exponenciación modular es fácil, su operación inversa, la extracción de raíces de módulo Ø no es factible a menos que se conozca la factorización de e, llave privada del sistema. RSA es el más conocido y usado de los sistemas de llave pública, y también el más rápido de ellos.
+        <br /><br />
+        Presenta todas las ventajas de los sistemas asimétricos, incluyendo la firma digital, aunque resulta más útil a la hora de implementar la confidencialidad el uso de sistemas simétricos, por ser más rápidos. Se suele usar también en los sistemas mixtos para cifrar y enviar la llave simétrica que se usará posteriormente en la comunicación cifrada.
+        <br><br>
+        La seguridad del criptosistema RSA está basado en dos problemas matemáticos: el problema de factorizar números grandes y el problema RSA. El descifrado completo de un texto cifrado con RSA es computacionalmente intratable, no se ha encontrado un algoritmo eficiente todavía para ambos problemas. Proveyendo la seguridad contra el descifrado parcial podría requerir la adición de una seguridad padding scheme.
+
+
+      </template>
+
+      <template id="algoritmos">
+        
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, illum? Dignissimos quasi maxime sequi corrupti dicta perspiciatis. Illo neque quae repellendus, totam ipsam eius fugit sit aliquam cumque laudantium? Modi?
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum illum, iure distinctio iste accusantium minima eum soluta expedita? Sint mollitia blanditiis incidunt placeat rem nisi maxime unde sit facilis natus!
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam dicta officiis et nesciunt labore id quam. Magni soluta iure expedita perferendis ex repudiandae itaque, amet, corporis, laborum natus officiis totam?
+
+        
+      </template>
+  </body>
+  <script src="../js/menuAdministrador.js"></script>
+  <script src="../js/tipoAlgoritmos.js"></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"
+  ></script>
+  <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+</html>
