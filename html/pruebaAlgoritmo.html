@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Algoritmo criptograficos</title>
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Boxicons CDN Link -->
+    <link
+      href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+
+    <!-- Selector -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css"
+      rel="stylesheet"
+    />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!--Importar CSS y script del menú -->
+    <link rel="stylesheet" href="../css/menuAdministrador.css" />
+    <link rel="stylesheet" href="../css/style.css">
+  </head>
+  <body>
+    <div class="sidebar">
+      <div class="logo-details">
+        <i class="fas fa-tire icon"></i>
+        <!-- Espacio entre mensaje Bienvenido-->
+        <div class="logo_name">Bienvenido</div>
+        <i class="bx bx-menu" id="btn"></i>
+      </div>
+
+      <ul class="nav-list">
+        <li>
+          <a href="../index.html">
+            <i>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                fill="currentColor"
+                class="bi bi-motherboard"
+                viewBox="0 0 16 16"
+                style="margin: 10px"
+              >
+                <path
+                  d="M11.5 2a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5Zm2 0a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5Zm-10 8a.5.5 0 0 0 0 1h6a.5.5 0 0 0 0-1h-6Zm0 2a.5.5 0 0 0 0 1h6a.5.5 0 0 0 0-1h-6ZM5 3a1 1 0 0 0-1 1h-.5a.5.5 0 0 0 0 1H4v1h-.5a.5.5 0 0 0 0 1H4a1 1 0 0 0 1 1v.5a.5.5 0 0 0 1 0V8h1v.5a.5.5 0 0 0 1 0V8a1 1 0 0 0 1-1h.5a.5.5 0 0 0 0-1H9V5h.5a.5.5 0 0 0 0-1H9a1 1 0 0 0-1-1v-.5a.5.5 0 0 0-1 0V3H6v-.5a.5.5 0 0 0-1 0V3Zm0 1h3v3H5V4Zm6.5 7a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h2a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-2Z"
+                />
+                <path
+                  d="M1 2a2 2 0 0 1 2-2h11a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-2H.5a.5.5 0 0 1-.5-.5v-1A.5.5 0 0 1 .5 9H1V8H.5a.5.5 0 0 1-.5-.5v-1A.5.5 0 0 1 .5 6H1V5H.5a.5.5 0 0 1-.5-.5v-2A.5.5 0 0 1 .5 2H1Zm1 11a1 1 0 0 0 1 1h11a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v11Z"
+                />
+              </svg>
+            </i>
+
+            <span class="links_name">Criptografia</span>
+          </a>
+          <span class="tooltip">Criptografia</span>
+        </li>
+        <li>
+          <a href="./tipoAlgoritmo.html">
+            <i class="icon fas fa-user"></i>
+            <span class="links_name">Tipos de algoritmos</span>
+          </a>
+          <span class="tooltip">Tipos de algoritmos</span>
+        </li>
+        <li>
+          <a href="./pruebaAlgoritmo.html">
+            <i class="fas fa-user-cog"></i>
+            <span class="links_name">Prueba algoritmos</span>
+          </a>
+          <span class="tooltip">Prueba algoritmos</span>
+        </li>
+        <li>
+          <a href="">
+            <i class="fas fa-shopping-cart"></i>
+            <span class="links_name">Compara algoritmos</span>
+          </a>
+          <span class="tooltip">Compara algoritmos</span>
+        </li>
+
+        <li>
+          <a href="">
+            <i>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                fill="currentColor"
+                class="bi bi-question-circle"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"
+                />
+                <path
+                  d="M5.255 5.786a.237.237 0 0 0 .241.247h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286zm1.557 5.763c0 .533.425.927 1.01.927.609 0 1.028-.394 1.028-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94z"
+                />
+              </svg>
+            </i>
+            <span class="links_name">Acerca de</span>
+          </a>
+          <span class="tooltip">Acerca de</span>
+        </li>
+      </ul>
+    </div>
+    
+    <section class="home-section">
+      <div
+        class="card"
+        style="
+          box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px,
+            rgba(0, 0, 0, 0.23) 4px 0px 6px 6px;
+          margin: 20px; margin-bottom: 0;
+        "
+      >
+        <div class="row">
+          <div class="col-3">
+              <img src="../img/undraw_learning_sketching_nd4f.png" alt="" style="height: 200px; width: 250px; margin: 0; padding: 0; margin-left: 50px; margin-right: auto;">
+          </div>
+          <div class="col-9" style="padding: 50px;">
+            
+            <h5 class="card-title" style="font-family: 'Tai Heritage Pro', serif; font-size: 32px;">Pon aprueba los algoritmos!</h5>
+            <div class="card-body" style="font-family: 'Tai Heritage Pro', serif; font-size: 18px;">
+                A continuación encontraras la sección para que pruebes y conozcas los resultados de la forma que realizar un algoritmo criptografico su proceso de encriptación ¡Muchas suerte! &#128512
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div
+        class="card"
+        style="
+          box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px,
+            rgba(0, 0, 0, 0.23) 4px 0px 6px 6px;
+          margin: 20px; margin-bottom: 0; margin-top: 50px; margin-bottom: 10px;
+        ">
+        <div class="row">
+          <div class="col" style="padding: 50px;">
+            <div class="card-body" style="font-family: 'Tai Heritage Pro', serif; font-size: 18px;">
+                El proceso para probar un algoritmo es muy facil, debes seleccionar el algoritmo en el siguiente cuadro, tiene dos opciones: Algoritmo Asimetrico o Simetrico, seguidamente indicar el algoritmo
+                que desea probar y conocer su resultado de encriptación y desencriptación de datos previamente enviados en los dos cuadros que encontraras a continuación.
+                <hr>
+                <div class="row">
+                    <div class="col">
+                        <b>Selecciona el algoritmo a probar: </b>                        
+                    </div>
+                    <div class="col">
+                        <select class="form-select" id="selectTipo" aria-label="Default select example">
+                            <option selected>Selecciona el tipo de algoritmo</option>
+                            <option value="asimetrico">Asimetrico</option>
+                            <option value="simetrico">Simetrico</option>
+                          </select>
+                    </div>
+                    <div class="col">
+                        <select class="form-select" id="selectAlgoritmo" aria-label="Default select example" disabled>
+                            <option selected>Selecciona un algoritmo</option>
+                          </select>
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-5">
+                        <label for="exampleFormControlTextarea1" class="form-label">Ingresa los datos</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="8"></textarea>
+                    </div>
+                    <div class="col-2">
+                        <div class="row">
+                            <div class="col">
+                                <div class="d-grid gap-2 my-5">
+                                    <button type="button" class="btn btn-primary btn-lg">Encriptar</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row-5">
+                            <div class="col">
+                                <div class="d-grid gap-4 my-4">
+                                    <button type="button" class="btn btn-primary btn-lg">Desencriptar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <label for="exampleFormControlTextarea1" class="form-label">Resultado del proceso</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="8"></textarea>
+                    </div>
+                </div>
+            </div>
+          </div>
+          </div>
+
+        <h4 style="font-family: 'Tai Heritage Pro', serif; font-size: 32px; margin-left: 30px; margin-top: 0;">Resultado del proceso</h4>
+        <div style="margin: 50px; font-family: 'Tai Heritage Pro', serif; font-size: 20px;">
+            <div class="row">
+                <div class="col">
+                    Valor de longitud de clave: 20 bytes
+                </div>
+                <div class="col">
+                    Tiempo de encriptación: 50 segundos
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col">
+                    cantidad de palabras encriptadas: 23 palabras
+                </div>
+                <div class="col">
+
+                </div>
+            </div>
+            <hr>
+        </div>
+        </div>
+      </div>
+    </section>
+  </body>
+  <script src="../js/menuAdministrador.js"></script>
+  <script src="../js/pruebaAlgoritmo.js"></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"
+  ></script>
+  <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+</html>

@@ -79,7 +79,7 @@
           <span class="tooltip">Tipos de algoritmos</span>
         </li>
         <li>
-          <a href="">
+          <a href="./pruebaAlgoritmo.html">
             <i class="fas fa-user-cog"></i>
             <span class="links_name">Prueba algoritmos</span>
           </a>
@@ -196,6 +196,10 @@
                       "
                     />
                   </div>
+                  <br>
+                  <p>
+                    <b>A continuación podras seleccionar los principales algoritmos que hay para esta familia en particular.</b>
+                  </p>
                 </div>
               </div>
               <div class="row">
@@ -259,6 +263,9 @@
                       />
                     </div>
                   </div>
+                  <p>
+                    <b>A continuación podras seleccionar los principales algoritmos que hay para esta familia en particular.</b>
+                  </p>
                 </div>
                 <div class="row">
                   <div
@@ -284,7 +291,7 @@
 
       </div>
     </section>
-    <template id="algoritmosRSA">
+        <template id="algoritmosDES">
         <b>Concepto</b>
         <br />
         Data Encryption Standard (DES) es un algoritmo de cifrado,
@@ -306,13 +313,21 @@
     <template id="algoritmosDES">
         <b>Concepto</b>
         <br />
-        RSA basa su seguridad es ser una función computacionalmente segura, ya que si bien realizar la exponenciación modular es fácil, su operación inversa, la extracción de raíces de módulo Ø no es factible a menos que se conozca la factorización de e, llave privada del sistema. RSA es el más conocido y usado de los sistemas de llave pública, y también el más rápido de ellos.
+        Data Encryption Standard (DES) es un algoritmo de cifrado,
+        es decir, un método para cifrar información, escogido como
+        un estándar FIPS en los Estados Unidos en 1976, y cuyo uso
+        se ha propagado ampliamente por todo el mundo. El algoritmo
+        fue controvertido al principio, con algunos elementos de
+        diseño clasificados, una longitud de clave relativamente
+        corta, y las continuas sospechas sobre la existencia de
+        alguna puerta trasera para la National Security Agency
+        (NSA). Posteriormente DES fue sometido a un intenso análisis
+        académico y motivó el concepto moderno del cifrado por
+        bloques y su criptoanálisis.
         <br /><br />
-        Presenta todas las ventajas de los sistemas asimétricos, incluyendo la firma digital, aunque resulta más útil a la hora de implementar la confidencialidad el uso de sistemas simétricos, por ser más rápidos. Se suele usar también en los sistemas mixtos para cifrar y enviar la llave simétrica que se usará posteriormente en la comunicación cifrada.
-        <br><br>
-        La seguridad del criptosistema RSA está basado en dos problemas matemáticos: el problema de factorizar números grandes y el problema RSA. El descifrado completo de un texto cifrado con RSA es computacionalmente intratable, no se ha encontrado un algoritmo eficiente todavía para ambos problemas. Proveyendo la seguridad contra el descifrado parcial podría requerir la adición de una seguridad padding scheme.
-
-
+        Algoritmo de cifra basado en un secreto compartido (clave).
+        Cifra el texto en bloques de 64 bits. Utiliza claves de 56
+        bits.
       </template>
 
       <template id="algoritmos">
